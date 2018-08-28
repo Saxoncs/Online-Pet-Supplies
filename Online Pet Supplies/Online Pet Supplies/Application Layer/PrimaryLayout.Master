@@ -5,14 +5,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">   
+
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
+                 <ul>
+  <li><a href="Homepage.aspx">Home</a></li> 
+  <li><a href="Catalogue.aspx">Catalogue</a></li>
+  <li><a href="Contact.aspx">Contact</a></li>
+  <li><a href="AboutUs.aspx">About</a></li>
+</ul> 
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
+
         </asp:ContentPlaceHolder>
     </div>
     </form>
