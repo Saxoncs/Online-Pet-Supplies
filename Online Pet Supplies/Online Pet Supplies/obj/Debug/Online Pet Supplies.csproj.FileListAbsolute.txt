@@ -33,3 +33,38 @@ C:\Users\littl\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online P
 C:\Users\littl\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csproj.CopyComplete
 C:\Users\littl\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.dll
 C:\Users\littl\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.pdb
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\ApplicationInsights.config
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\csc.exe
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\vbc.exe
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\VBCSCompiler.exe
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Online Pet Supplies.dll.config
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Online Pet Supplies.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Online Pet Supplies.pdb
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.Web.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.Web.xml
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csprojAssemblyReference.cache
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csproj.CoreCompileInputs.cache
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csproj.CopyComplete
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.pdb

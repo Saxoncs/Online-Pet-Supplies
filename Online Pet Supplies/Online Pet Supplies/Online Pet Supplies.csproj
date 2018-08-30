@@ -98,6 +98,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Application Layer\AboutUs.aspx" />
+    <Content Include="Application Layer\AdminProduct.aspx" />
+    <Content Include="Application Layer\AdminUserControl.aspx" />
     <Content Include="Application Layer\Catalogue.aspx" />
     <Content Include="Application Layer\Contact.aspx" />
     <Content Include="Application Layer\Login.aspx" />
@@ -108,6 +110,7 @@
     <Content Include="Application Layer\PurchaseHistory.aspx" />
     <Content Include="Application Layer\Registration.aspx" />
     <Content Include="Application Layer\ShoppingCart.aspx" />
+    <Content Include="Application Layer\AdminLogin.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -116,6 +119,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Application Layer\CSS\AdminStyle.css" />
     <Content Include="HomePage.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="packages.config" />
@@ -147,6 +151,7 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Application Layer\AdminMaster.Master" />
     <None Include="scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="scripts\jquery-3.0.0.js" />
     <Content Include="scripts\jquery-3.0.0.min.js" />
@@ -190,6 +195,20 @@
     </Compile>
     <Compile Include="Application Layer\AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\AdminProduct.aspx.cs">
+      <DependentUpon>AdminProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AdminProduct.aspx.designer.cs">
+      <DependentUpon>AdminProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\AdminUserControl.aspx.cs">
+      <DependentUpon>AdminUserControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AdminUserControl.aspx.designer.cs">
+      <DependentUpon>AdminUserControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="Application Layer\Catalogue.aspx.cs">
       <DependentUpon>Catalogue.aspx</DependentUpon>
@@ -267,6 +286,20 @@
     </Compile>
     <Compile Include="Application Layer\ShoppingCart.aspx.designer.cs">
       <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
     </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
