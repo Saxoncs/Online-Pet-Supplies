@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -94,22 +95,30 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Application Layer\AboutUs.aspx" />
-    <Content Include="Application Layer\Catalogue.aspx" />
-    <Content Include="Application Layer\Contact.aspx" />
-    <Content Include="Application Layer\HomePage.aspx" />
-    <Content Include="Application Layer\Login.aspx" />
-    <Content Include="Application Layer\Logout.aspx" />
+    <Content Include="Application Layer\AdminSite\AdminLogin.aspx" />
+    <Content Include="Application Layer\AdminSite\AdminRegistration.aspx" />
+    <Content Include="Application Layer\AdminSite\ProductManagement.aspx" />
+    <Content Include="Application Layer\AdminSite\UserManagement.aspx" />
+    <Content Include="Application Layer\MainSite\AboutUs.aspx" />
+    <Content Include="Application Layer\MainSite\Catalogue.aspx" />
+    <Content Include="Application Layer\MainSite\Contact.aspx" />
+    <Content Include="Application Layer\MainSite\HomePage.aspx" />
+    <Content Include="Application Layer\MainSite\images\HomePage.aspx" />
+    <Content Include="Application Layer\MainSite\Login.aspx" />
+    <Content Include="Application Layer\MainSite\Logout.aspx" />
+    <Content Include="Application Layer\MainSite\CSS\MainSite.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Application Layer\MainSite\images\hBanner.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Application Layer\PrimaryLayout.Master" />
+    <Content Include="Application Layer\MainSite\PrimaryLayout.Master" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Application Layer\AdminSite\Admin.Master" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
@@ -124,99 +133,141 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Application Layer\Payment.aspx" />
-    <Content Include="Application Layer\Product.aspx" />
-    <Content Include="Application Layer\PurchaseHistory.aspx" />
-    <Content Include="Application Layer\Registration.aspx" />
+    <Content Include="Application Layer\MainSite\Payment.aspx" />
+    <Content Include="Application Layer\MainSite\Product.aspx" />
+    <Content Include="Application Layer\MainSite\PurchaseHistory.aspx" />
+    <Content Include="Application Layer\MainSite\Registration.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="Application Layer\ShoppingCart.aspx" />
+    <Content Include="Application Layer\MainSite\ShoppingCart.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application Layer\AboutUs.aspx.cs">
+    <Compile Include="Application Layer\AdminSite\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AdminSite\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\AdminSite\AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AdminSite\AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\AdminSite\AdminRegistration.aspx.cs">
+      <DependentUpon>AdminRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AdminSite\AdminRegistration.aspx.designer.cs">
+      <DependentUpon>AdminRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\AdminSite\ProductManagement.aspx.cs">
+      <DependentUpon>ProductManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AdminSite\ProductManagement.aspx.designer.cs">
+      <DependentUpon>ProductManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\AdminSite\UserManagement.aspx.cs">
+      <DependentUpon>UserManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AdminSite\UserManagement.aspx.designer.cs">
+      <DependentUpon>UserManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\MainSite\AboutUs.aspx.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\AboutUs.aspx.designer.cs">
+    <Compile Include="Application Layer\MainSite\AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Application Layer\Catalogue.aspx.cs">
+    <Compile Include="Application Layer\MainSite\Catalogue.aspx.cs">
       <DependentUpon>Catalogue.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\Catalogue.aspx.designer.cs">
+    <Compile Include="Application Layer\MainSite\Catalogue.aspx.designer.cs">
       <DependentUpon>Catalogue.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Application Layer\Contact.aspx.cs">
+    <Compile Include="Application Layer\MainSite\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\Contact.aspx.designer.cs">
+    <Compile Include="Application Layer\MainSite\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Application Layer\HomePage.aspx.cs">
+    <Compile Include="Application Layer\MainSite\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\HomePage.aspx.designer.cs">
+    <Compile Include="Application Layer\MainSite\HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Application Layer\Login.aspx.cs">
+    <Compile Include="Application Layer\MainSite\images\HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\MainSite\images\HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\MainSite\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\Login.aspx.designer.cs">
+    <Compile Include="Application Layer\MainSite\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Application Layer\Logout.aspx.cs">
+    <Compile Include="Application Layer\MainSite\Logout.aspx.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\Logout.aspx.designer.cs">
+    <Compile Include="Application Layer\MainSite\Logout.aspx.designer.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Application Layer\Payment.aspx.cs">
+    <Compile Include="Application Layer\MainSite\Payment.aspx.cs">
       <DependentUpon>Payment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\Payment.aspx.designer.cs">
+    <Compile Include="Application Layer\MainSite\Payment.aspx.designer.cs">
       <DependentUpon>Payment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Application Layer\PrimaryLayout.Master.cs">
+    <Compile Include="Application Layer\MainSite\PrimaryLayout.Master.cs">
       <DependentUpon>PrimaryLayout.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\PrimaryLayout.Master.designer.cs">
+    <Compile Include="Application Layer\MainSite\PrimaryLayout.Master.designer.cs">
       <DependentUpon>PrimaryLayout.Master</DependentUpon>
     </Compile>
-    <Compile Include="Application Layer\Product.aspx.cs">
+    <Compile Include="Application Layer\MainSite\Product.aspx.cs">
       <DependentUpon>Product.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\Product.aspx.designer.cs">
+    <Compile Include="Application Layer\MainSite\Product.aspx.designer.cs">
       <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Application Layer\PurchaseHistory.aspx.cs">
+    <Compile Include="Application Layer\MainSite\PurchaseHistory.aspx.cs">
       <DependentUpon>PurchaseHistory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\PurchaseHistory.aspx.designer.cs">
+    <Compile Include="Application Layer\MainSite\PurchaseHistory.aspx.designer.cs">
       <DependentUpon>PurchaseHistory.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Application Layer\Registration.aspx.cs">
+    <Compile Include="Application Layer\MainSite\Registration.aspx.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\Registration.aspx.designer.cs">
+    <Compile Include="Application Layer\MainSite\Registration.aspx.designer.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Application Layer\ShoppingCart.aspx.cs">
+    <Compile Include="Application Layer\MainSite\ShoppingCart.aspx.cs">
       <DependentUpon>ShoppingCart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Application Layer\ShoppingCart.aspx.designer.cs">
+    <Compile Include="Application Layer\MainSite\ShoppingCart.aspx.designer.cs">
       <DependentUpon>ShoppingCart.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
