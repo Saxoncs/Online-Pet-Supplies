@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-  <title>Bootstrap Example</title>
+  <title>Pet Supplies Online</title>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="/Content/bootstrap.min.css"/>
@@ -23,11 +23,15 @@
       <a class="navbar-brand" href="#">Online Pet Supplies</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+      <li><a href="HomePage.aspx">Home</a></li>
       <li><a href="Catalogue.aspx">Catalogue</a></li>
       <li><a href="Contact.aspx">Contact</a></li>
       <li><a href="AboutUs.aspx">About Us</a></li>
-      <li><a href="Login.aspx">Login</a></li>
+    </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="Registration.aspx">Sign Up</a> </li>
+      <li><a href="Login.aspx">Login</a> </li>
     </ul>
   </div>
 </nav>
@@ -47,16 +51,7 @@
   </div>
 </form>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Comulmn 1</h3>
-      <p></p>
-      <p></p>
-    </div>
 
-  </div>
-</div>
 
 </body>
 </html>

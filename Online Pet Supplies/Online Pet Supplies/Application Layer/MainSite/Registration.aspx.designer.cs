@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Online_Pet_Supplies.Application_Layer
+namespace Online_Pet_Supplies.Application_Layer.MainSite
 {
 
 

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Online_Pet_Supplies.Application_Layer
+namespace Online_Pet_Supplies.Application_Layer.MainSite
 {
     public partial class Registration : System.Web.UI.Page
     {
