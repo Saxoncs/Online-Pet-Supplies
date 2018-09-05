@@ -106,6 +106,7 @@
     <Content Include="Application Layer\MainSite\Contact.aspx" />
     <Content Include="Application Layer\MainSite\HomePage.aspx" />
     <Content Include="Application Layer\MainSite\images\HomePage.aspx" />
+    <Content Include="Application Layer\MainSite\images\catalogueLogo.jpg" />
     <Content Include="Application Layer\MainSite\Login.aspx" />
     <Content Include="Application Layer\MainSite\Logout.aspx" />
     <Content Include="Application Layer\MainSite\CSS\MainSite.css" />
