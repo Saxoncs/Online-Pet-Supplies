@@ -66,3 +66,4 @@ C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Onl
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csproj.CopyComplete
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.dll
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.pdb
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\AspNet.ScriptManager.jQuery.dll
