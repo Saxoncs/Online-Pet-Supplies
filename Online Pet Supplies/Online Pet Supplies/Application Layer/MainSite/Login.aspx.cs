@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Online_Pet_Supplies.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,14 @@ namespace Online_Pet_Supplies.Application_Layer
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            
+            string username = userName.Text;
+            Session["username"] = username;
         }
     }
 }

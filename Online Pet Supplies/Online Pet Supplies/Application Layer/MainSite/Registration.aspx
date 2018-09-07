@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <div style = "margin-left = "10"">
+    <div style = "margin-left: 10px">
     <asp:ValidationSummary ID="ValidationSummary1" runat="server" CssClass="summary text-danger" HeaderText="Please correct these entries:" />
 
     <h2>Please enter your details to set up an account with Online Pet Supplies.</h2>

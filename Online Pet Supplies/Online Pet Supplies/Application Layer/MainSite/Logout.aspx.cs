@@ -13,5 +13,10 @@ namespace Online_Pet_Supplies.Application_Layer
         {
 
         }
+
+        protected void LogOut_Click(object sender, EventArgs e)
+        {
+            Session.Abandon();
+        }
     }
 }

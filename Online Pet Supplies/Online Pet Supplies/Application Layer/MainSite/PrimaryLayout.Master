@@ -27,11 +27,12 @@
       <li><a href="Catalogue.aspx">Catalogue</a></li>
       <li><a href="Contact.aspx">Contact</a></li>
       <li><a href="AboutUs.aspx">About Us</a></li>
+       <li><a href="PurchaseHistory.aspx">Purchase history</a></li>
     </ul>
-      
       <ul class="nav navbar-nav navbar-right">
       <li><a href="Registration.aspx">Sign Up</a> </li>
       <li><a href="Login.aspx">Login</a> </li>
+      <li><a href="Logout.aspx">Logout</a> </li>
     </ul>
   </div>
 </nav>

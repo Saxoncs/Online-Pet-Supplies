@@ -67,3 +67,22 @@ C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Onl
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.dll
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.pdb
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\csc.exe.config
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\csc.rsp
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\csi.exe
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\csi.rsp
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\System.AppContext.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\vbc.exe.config
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\vbc.rsp
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\System.Diagnostics.DiagnosticSource.xml

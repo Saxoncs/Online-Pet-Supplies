@@ -11,7 +11,7 @@ namespace Online_Pet_Supplies.Application_Layer
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            UserSesh.Text = (string)Session["username"];
         }
     }
 }
