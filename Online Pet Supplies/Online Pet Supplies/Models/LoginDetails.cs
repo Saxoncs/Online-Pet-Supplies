@@ -6,9 +6,17 @@ using System.Web;
 namespace Online_Pet_Supplies.Models
 {
 
+
     public class LoginDetails
     {
-       public string Username = "Mitchell";
-       public string Password = "1234";
+        public static string Username = "Mitchell";
+        public static string Password = "1234";
+
+
+
+
+
     }
+    
+
 }

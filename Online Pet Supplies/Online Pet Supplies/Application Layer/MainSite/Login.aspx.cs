@@ -18,9 +18,17 @@ namespace Online_Pet_Supplies.Application_Layer
 
         protected void SubmitButton_Click(object sender, EventArgs e)
         {
-            
-            string username = userName.Text;
-            Session["username"] = username;
+            string checkUsername = LoginDetails.Username;
+            string checkPass = LoginDetails.Password;
+
+            if (userName.Text == checkUsername & password.Text == checkPass )
+            {
+                Session["username"] = userName.Text;
+                Response.Redirect("HomePage.aspx");
+              
+
+            }
+
         }
     }
 }
