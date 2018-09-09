@@ -8,19 +8,19 @@
 
     <h2>Please enter your details to set up an account with Online Pet Supplies.</h2>
 
-    <br/>First Name<br/>
+    <br/>First Name *<br/>
     <asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator0" runat="server" ControlToValidate="txtFirstName" CssClass="text-danger" ErrorMessage="You must enter a first name." >
     </asp:RequiredFieldValidator>
 
 
-    <br/>Last Name<br/>
+    <br/>Last Name *<br/>
     <asp:TextBox ID="txtLastName" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtLastName" CssClass="text-danger" ErrorMessage="You must enter a last name." >
     </asp:RequiredFieldValidator>
 
 
-    <br/>Address<br/>
+    <br/>Address *<br/>
     <br/>Street<br/>
     <asp:TextBox ID="txtStreet" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtStreet" CssClass="text-danger" ErrorMessage="You must enter a street." >
@@ -45,6 +45,9 @@
     <asp:TextBox ID="txtEmailAddress" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="txtEmailAddress" CssClass="text-danger" ErrorMessage="You must enter an e-mail address." >
     </asp:RequiredFieldValidator>
+    <asp:RegularExpressionValidator ID="revEmail1" runat="server" ErrorMessage="Email address" CssClass="text-danger" Display="Dynamic"  ValidationExpression= "\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmailAddress">Must be a valid email address
+       </asp:RegularExpressionValidator>
+
 
     <br/>
     <br/>Username<br/>
@@ -62,7 +65,7 @@
     <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="txtPassword2" CssClass="text-danger" ErrorMessage="You must enter a password again." >
     </asp:RequiredFieldValidator>
 
-    <br/><br />
+    <br/>
         </div>
     <asp:Button ID="btnSubmitRegistrationForm" runat="server" Text="Submit Form" />
 

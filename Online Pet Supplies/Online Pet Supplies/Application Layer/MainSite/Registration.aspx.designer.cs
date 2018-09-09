@@ -148,6 +148,15 @@ namespace Online_Pet_Supplies.Application_Layer.MainSite {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator9;
         
         /// <summary>
+        /// revEmail1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revEmail1;
+        
+        /// <summary>
         /// txtUsername control.
         /// </summary>
         /// <remarks>

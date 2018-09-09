@@ -13,6 +13,15 @@ namespace Online_Pet_Supplies.Application_Layer {
     public partial class Login {
         
         /// <summary>
+        /// ValidationSummary1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
+        
+        /// <summary>
         /// userName control.
         /// </summary>
         /// <remarks>
@@ -22,6 +31,15 @@ namespace Online_Pet_Supplies.Application_Layer {
         protected global::System.Web.UI.WebControls.TextBox userName;
         
         /// <summary>
+        /// RequiredFieldValidator0 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator0;
+        
+        /// <summary>
         /// password control.
         /// </summary>
         /// <remarks>
@@ -29,6 +47,15 @@ namespace Online_Pet_Supplies.Application_Layer {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox password;
+        
+        /// <summary>
+        /// RequiredFieldValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
         /// <summary>
         /// SubmitButton control.
