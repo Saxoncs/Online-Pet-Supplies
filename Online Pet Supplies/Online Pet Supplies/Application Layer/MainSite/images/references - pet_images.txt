@@ -1,0 +1,29 @@
+
+
+retrieved 27/08/2018:
+----------------------
+
+google images search - dog toys
+pet_image0001.jpg - petbarn.com.au
+pet_image0002.jpg - aliexpress.com
+pet_image0003.jpg - aliexpress.com
+pet_image0004.jpg - buddysapetsstore.com
+
+retrieved 03/09/2018:
+----------------------
+
+google images search - dog food
+
+chewy.com - now pet_image0005.jpg
+woolworths.com.au - now pet_image0006.jpg
+
+google images search - cat toys
+petland.ca - now pet_image0007.jpg
+canvasbackpets.com - now pet_image0008.jpg
+thepawsland.com - now pet_image0009.jpg
+
+google images search - cat food
+dollartree.com - now pet_image0010.jpg
+naturalinstinct.com - now pet_image0011.jpg
+
+
