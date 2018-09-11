@@ -20,6 +20,8 @@ namespace Online_Pet_Supplies.Application_Layer
         {
             string checkUsername = LoginDetails.Username;
             string checkPass = LoginDetails.Password;
+            string AdminUser = LoginDetails.UsernameAdmin;
+            string AdminPass = LoginDetails.PasswordAdmin;
 
             if (userName.Text == checkUsername & password.Text == checkPass )
             {
@@ -28,9 +30,10 @@ namespace Online_Pet_Supplies.Application_Layer
               
 
             }
-            else
+            else if (userName.Text == AdminUser & password.Text == AdminPass)
             {
-                
+                Session["username"] = userName.Text;
+                Response.Redirect("/Application Layer/AdminSite/AdminLogin.aspx");
             }
 
         }

@@ -11,7 +11,10 @@ namespace Online_Pet_Supplies.Application_Layer.AdminSite
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if ((string)Session["username"] != "Admin")
+            {
+                Response.Redirect("HomePage.aspx");
+            }
         }
     }
 }
