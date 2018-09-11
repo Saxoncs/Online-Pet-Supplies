@@ -13,5 +13,10 @@ namespace Online_Pet_Supplies.Application_Layer
         {
 
         }
+
+        protected void ObjectDataSource1_Selecting(object sender, ObjectDataSourceSelectingEventArgs e)
+        {
+
+        }
     }
 }

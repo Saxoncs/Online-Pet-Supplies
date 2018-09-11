@@ -112,6 +112,15 @@ namespace Online_Pet_Supplies.Application_Layer.MainSite {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
         
         /// <summary>
+        /// postCodeValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator postCodeValidator;
+        
+        /// <summary>
         /// txtPhoneNumber control.
         /// </summary>
         /// <remarks>
@@ -128,6 +137,15 @@ namespace Online_Pet_Supplies.Application_Layer.MainSite {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
+        
+        /// <summary>
+        /// PhoneN control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator PhoneN;
         
         /// <summary>
         /// txtEmailAddress control.
@@ -148,13 +166,13 @@ namespace Online_Pet_Supplies.Application_Layer.MainSite {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator9;
         
         /// <summary>
-        /// revEmail1 control.
+        /// emailAddressValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator revEmail1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator emailAddressValidator;
         
         /// <summary>
         /// txtUsername control.
@@ -193,6 +211,15 @@ namespace Online_Pet_Supplies.Application_Layer.MainSite {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
         
         /// <summary>
+        /// passwordValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator passwordValidator1;
+        
+        /// <summary>
         /// txtPassword2 control.
         /// </summary>
         /// <remarks>
@@ -209,6 +236,15 @@ namespace Online_Pet_Supplies.Application_Layer.MainSite {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator8;
+        
+        /// <summary>
+        /// cvEmail2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cvEmail2;
         
         /// <summary>
         /// btnSubmitRegistrationForm control.

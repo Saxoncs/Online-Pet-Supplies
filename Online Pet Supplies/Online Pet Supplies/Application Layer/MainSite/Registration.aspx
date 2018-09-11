@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <div style = "margin-left: 10px">
+    <div style = "margin-left: 10px" >
     <asp:ValidationSummary ID="ValidationSummary1" runat="server" CssClass="summary text-danger" HeaderText="Please correct these entries:" />
 
     <h2>Please enter your details to set up an account with Online Pet Supplies.</h2>
@@ -26,27 +26,36 @@
     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtStreet" CssClass="text-danger" ErrorMessage="You must enter a street." >
     </asp:RequiredFieldValidator>
 
+
     <br/>Town<br/>
     <asp:TextBox ID="txtTown" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtTown" CssClass="text-danger" ErrorMessage="You must enter a town." >
     </asp:RequiredFieldValidator>
 
+
     <br/>Postcode<br/>
     <asp:TextBox ID="txtPostCode" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtPostCode" CssClass="text-danger" ErrorMessage="You must enter a postcode." >
     </asp:RequiredFieldValidator>
+     <asp:RegularExpressionValidator ID="postCodeValidator" runat="server" ControlToValidate="txtPostCode" CssClass="text-danger" ValidationExpression="\d{4}" ErrorMessage="Must be a four digit number.">
+    </asp:RegularExpressionValidator>
 
     <br/>Phone Number<br/>
     <asp:TextBox ID="txtPhoneNumber" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtPhoneNumber" CssClass="text-danger" ErrorMessage="You must enter a phone number." >
-    </asp:RequiredFieldValidator>
+    </asp:RequiredFieldValidator> <asp:RegularExpressionValidator ID="PhoneN" runat="server" ErrorMessage="Phone number must be 10 digits" CssClass="text-danger" Display="Dynamic"  ValidationExpression= "\d{10}" ControlToValidate="txtPhoneNumber">
+       </asp:RegularExpressionValidator>
 
+
+    
     <br/>E-mail Address<br/>
     <asp:TextBox ID="txtEmailAddress" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="txtEmailAddress" CssClass="text-danger" ErrorMessage="You must enter an e-mail address." >
     </asp:RequiredFieldValidator>
-    <asp:RegularExpressionValidator ID="revEmail1" runat="server" ErrorMessage="Email address" CssClass="text-danger" Display="Dynamic"  ValidationExpression= "\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmailAddress">Must be a valid email address
-       </asp:RegularExpressionValidator>
+    <asp:RegularExpressionValidator ID="emailAddressValidator" runat="server" ControlToValidate="txtEmailAddress"
+        CssClass="text-danger" ValidationExpression="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" ErrorMessage="Must be a valid email address.">
+    </asp:RegularExpressionValidator>
+
 
 
     <br/>
@@ -54,19 +63,27 @@
     <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtUsername" CssClass="text-danger" ErrorMessage="You must enter a username." >
     </asp:RequiredFieldValidator>
+     <asp:RegularExpressionValidator ID="userNameValidator" runat="server" ControlToValidate="txtUserName"CssClass="text-danger" ValidationExpression="^[a-z0-9_-]{3,16}$" ErrorMessage="Must be a valid username.">
+    </asp:RegularExpressionValidator>
 
     <br/>Password<br/>
     <asp:TextBox ID="txtPassword1" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txtPassword1" CssClass="text-danger" ErrorMessage="You must enter a password." >
     </asp:RequiredFieldValidator>
+     <asp:RegularExpressionValidator ID="passwordValidator1" runat="server" ControlToValidate="txtPassword1" CssClass="text-danger" ValidationExpression="^[a-z0-9_-]{6,18}$" ErrorMessage="Must be a valid password.">
+    </asp:RegularExpressionValidator>
+
 
     <br/>Retype password<br/>
     <asp:TextBox ID="txtPassword2" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="txtPassword2" CssClass="text-danger" ErrorMessage="You must enter a password again." >
     </asp:RequiredFieldValidator>
-
+    <asp:CompareValidator ID="cvEmail2" runat="server" ControlToValidate="txtPassword2" CssClass="text-danger"
+     ControlToCompare="txtPassword1" Display="Dynamic" ErrorMessage="Both passwords must be the same.">Must match first password. </asp:CompareValidator>
     <br/>
-        </div>
+     </div>
+
+
     <asp:Button ID="btnSubmitRegistrationForm" runat="server" Text="Submit Form" />
 
 </asp:Content>
