@@ -11,7 +11,7 @@ namespace Online_Pet_Supplies.Application_Layer
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            DateValidator.MinimumValue = System.DateTime.Now.ToString("dd-MM-yyyy");
         }
     }
 }

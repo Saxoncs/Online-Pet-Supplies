@@ -49,6 +49,15 @@ namespace Online_Pet_Supplies.Application_Layer {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator ccNumberValidator;
         
         /// <summary>
+        /// CCValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator CCValidator;
+        
+        /// <summary>
         /// eDate control.
         /// </summary>
         /// <remarks>
@@ -67,6 +76,15 @@ namespace Online_Pet_Supplies.Application_Layer {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator eDateValidator;
         
         /// <summary>
+        /// DateValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator DateValidator;
+        
+        /// <summary>
         /// CCV control.
         /// </summary>
         /// <remarks>
@@ -83,6 +101,15 @@ namespace Online_Pet_Supplies.Application_Layer {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator CCVvalidator;
+        
+        /// <summary>
+        /// ccvNumbervalidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator ccvNumbervalidator;
         
         /// <summary>
         /// submitPayment control.

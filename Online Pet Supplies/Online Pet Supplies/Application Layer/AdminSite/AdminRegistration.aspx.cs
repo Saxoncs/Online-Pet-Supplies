@@ -13,7 +13,8 @@ namespace Online_Pet_Supplies.Application_Layer.AdminSite
         {
             if ((string)Session["username"] != "Admin")
             {
-                Response.Redirect("HomePage.aspx");
+                Server.Transfer("/Application Layer/MainSite/HomePage.aspx", true);
+                
             }
         }
     }
