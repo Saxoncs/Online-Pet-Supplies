@@ -1,4 +1,5 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Online_Pet_Supplies.Application_Layer.AdminSite.Admin" %>
+﻿<%-- Master Page for all admin sites --%>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Online_Pet_Supplies.Application_Layer.AdminSite.Admin" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -16,7 +17,7 @@
 
 <body>
 
-
+<%--Creates an admin specific navbar with headings for registering users, editting catalogues, managing users and signing up new admin and logging out--%>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -35,7 +36,7 @@
   </div>
 </nav>
 
-
+<%-- Creates a jumbotron for admin pages --%>
 <div class="jumbotron text-center" >
   <h1>Admin Console</h1>
   <p>Dont Break Stuff</p> 
@@ -43,7 +44,7 @@
 
 
 
-
+<%-- Creates a content placeholder for use within individual pages --%>
 <form id="form2" runat="server">
   <div>
      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">   </asp:ContentPlaceHolder>
