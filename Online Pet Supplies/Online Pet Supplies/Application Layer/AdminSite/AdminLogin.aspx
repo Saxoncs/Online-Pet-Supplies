@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:ValidationSummary ID="ValidationSummary1" runat="server" CssClass="summary text-danger" HeaderText="Please correct these entries:" />
 
-    <h2>You have sucessfully logged into the admin console.</h2>
+    <h1>You have sucessfully logged into the admin console.</h1>
 
 
 

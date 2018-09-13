@@ -63,7 +63,7 @@
     <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtUsername" CssClass="text-danger" ErrorMessage="You must enter a username." >
     </asp:RequiredFieldValidator>
-     <asp:RegularExpressionValidator ID="userNameValidator" runat="server" ControlToValidate="txtUserName"CssClass="text-danger" ValidationExpression="^[a-z0-9_-]{3,16}$" ErrorMessage="Must be a valid username.">
+     <asp:RegularExpressionValidator ID="userNameValidator" runat="server" ControlToValidate="txtUserName" CssClass="text-danger" ValidationExpression="^[a-z0-9_-]{3,16}$" ErrorMessage="Must be a valid username.">
     </asp:RegularExpressionValidator>
 
     <br/>Password<br/>

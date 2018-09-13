@@ -124,6 +124,8 @@
     <Content Include="Application Layer\MainSite\Logout.aspx" />
     <Content Include="Application Layer\MainSite\CSS\MainSite.css" />
     <Content Include="Application Layer\MainSite\images\hBanner.png" />
+    <Content Include="Application Layer\MainSite\OrderConfirmation.aspx" />
+    <Content Include="Application Layer\MainSite\Postage.aspx" />
     <Content Include="Application Layer\MainSite\Registration.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -1081,12 +1083,26 @@
     <Compile Include="Application Layer\MainSite\Logout.aspx.designer.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Application Layer\MainSite\OrderConfirmation.aspx.cs">
+      <DependentUpon>OrderConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\MainSite\OrderConfirmation.aspx.designer.cs">
+      <DependentUpon>OrderConfirmation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Application Layer\MainSite\Payment.aspx.cs">
       <DependentUpon>Payment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Application Layer\MainSite\Payment.aspx.designer.cs">
       <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\MainSite\Postage.aspx.cs">
+      <DependentUpon>Postage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application Layer\MainSite\Postage.aspx.designer.cs">
+      <DependentUpon>Postage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Application Layer\MainSite\PrimaryLayout.Master.cs">
       <DependentUpon>PrimaryLayout.Master</DependentUpon>

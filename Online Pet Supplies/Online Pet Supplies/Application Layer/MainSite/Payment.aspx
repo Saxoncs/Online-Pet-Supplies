@@ -22,13 +22,13 @@
     <asp:TextBox ID="eDate" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="eDateValidator" runat="server" ControlToValidate="eDate" CssClass="text-danger" ErrorMessage="Please provide the expiry date of your credit card." >
     </asp:RequiredFieldValidator>
-        <asp:RangeValidator ID ="DateValidator" runat ="server" ControlToValidate="eDate" ErrorMessage="Invalid Date" Type="Date" MinimumValue="" MaximumValue =" 1/1/2050" Display="Dynamic"></asp:RangeValidator>
+        <asp:RangeValidator ID ="DateValidator" runat ="server" ControlToValidate="eDate" ErrorMessage="Date must be in the future" Type="Date" MinimumValue="" MaximumValue =" 1/1/2050" Display="Dynamic"></asp:RangeValidator>
 
      <br/>CCV<br/>
     <asp:TextBox ID="CCV" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="CCVvalidator" runat="server" ControlToValidate="CCV" CssClass="text-danger" ErrorMessage="Please provide your ccv located on the back of your card." >
     </asp:RequiredFieldValidator>
-     <asp:RegularExpressionValidator ID="ccvNumbervalidator" runat="server" ControlToValidate="CCV" CssClass="text-danger" ValidationExpression="\d{3}" ErrorMessage="Please enter your # digit ccv located on the back of your card.">
+     <asp:RegularExpressionValidator ID="ccvNumbervalidator" runat="server" ControlToValidate="CCV" CssClass="text-danger" ValidationExpression="\d{3}" ErrorMessage="Please enter your 3 digit ccv located on the back of your card.">
     </asp:RegularExpressionValidator>
         <br/>
 
