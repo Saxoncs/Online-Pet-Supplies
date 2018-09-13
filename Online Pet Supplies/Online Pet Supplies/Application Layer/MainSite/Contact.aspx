@@ -1,6 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Application Layer/MainSite/PrimaryLayout.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Online_Pet_Supplies.Application_Layer.Contact" %>
+﻿<%-- contact us page --%>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Application Layer/MainSite/PrimaryLayout.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Online_Pet_Supplies.Application_Layer.Contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
+
+<%-- The contact us page consist mostly of static text --%>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid"  >
   <div class="row">

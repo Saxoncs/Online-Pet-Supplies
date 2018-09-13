@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Codebehind file for the Main Site Master page
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

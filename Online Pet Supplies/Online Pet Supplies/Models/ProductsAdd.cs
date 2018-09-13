@@ -5,6 +5,7 @@ using System.Web;
 
 namespace Online_Pet_Supplies.Models
 {
+    //Class containing dummy data for products class
     public class ProductAdd
     {
         public ProductAdd()

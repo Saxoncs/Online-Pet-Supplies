@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Codebehind file for the Payment page
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +12,7 @@ namespace Online_Pet_Supplies.Application_Layer
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //Stores the current date as a string to be used in the expiration date validator
             DateValidator.MinimumValue = System.DateTime.Now.ToString("dd-MM-yyyy");
         }
     }

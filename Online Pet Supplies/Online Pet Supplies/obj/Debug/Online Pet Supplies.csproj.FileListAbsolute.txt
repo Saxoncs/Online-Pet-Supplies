@@ -28,7 +28,6 @@ F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Micro
 F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.WindowsServer.xml
 F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.ApplicationInsights.xml
 F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csprojResolveAssemblyReference.cache
 F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.dll
 F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.pdb
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\ApplicationInsights.config
@@ -86,3 +85,26 @@ C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Onl
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.PerfCounterCollector.xml
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\System.Diagnostics.DiagnosticSource.xml
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\csc.exe.config
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\csc.rsp
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\csi.exe
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\csi.rsp
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\System.AppContext.dll
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\System.IO.FileSystem.dll
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\vbc.exe.config
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\roslyn\vbc.rsp
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\AspNet.ScriptManager.jQuery.dll
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\System.Diagnostics.DiagnosticSource.dll
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AI.PerfCounterCollector.xml
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\System.Diagnostics.DiagnosticSource.xml
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csprojAssemblyReference.cache
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csproj.CoreCompileInputs.cache
+F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csproj.CopyComplete

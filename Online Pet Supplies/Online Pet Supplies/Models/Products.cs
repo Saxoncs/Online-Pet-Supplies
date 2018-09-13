@@ -4,6 +4,8 @@ using System.Linq;
 using System.Security.Policy;
 using System.Web;
 
+
+// a Class for products that will be called by forms that need a list of products to fill a grid view
 namespace Online_Pet_Supplies.Models
 {
     public class Products
