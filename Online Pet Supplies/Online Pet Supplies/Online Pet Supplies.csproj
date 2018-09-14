@@ -119,7 +119,7 @@
     <Content Include="Application Layer\MainSite\images\pet_image0009.png" />
     <Content Include="Application Layer\MainSite\images\pet_image0010.jpg" />
     <Content Include="Application Layer\MainSite\images\pet_image0011.jpg" />
-    <Content Include="Application Layer\MainSite\images\references - pet_images.txt" />
+    <Content Include="Application Layer\references - pet_images.txt" />
     <Content Include="Application Layer\MainSite\Login.aspx" />
     <Content Include="Application Layer\MainSite\Logout.aspx" />
     <Content Include="Application Layer\MainSite\CSS\MainSite.css" />

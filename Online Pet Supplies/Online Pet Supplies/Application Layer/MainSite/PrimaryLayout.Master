@@ -51,7 +51,7 @@
   <p>Welcome Friends</p> 
 </div>
 
- <%--side bar navigation --%>
+ <%--side bar navigation  sourced ideas and code mainly from w3schools.com tutorial pages--%>
 
 
   <div class="col-sm-2" id ="firstCol">
@@ -83,7 +83,7 @@
     <div class="col-sm-2 ">
         </div> 
 
-<
+
 
 
 

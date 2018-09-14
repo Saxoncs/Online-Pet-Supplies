@@ -12,6 +12,8 @@ pet_image0004.jpg - buddysapetsstore.com
 retrieved 03/09/2018:
 ----------------------
 
+IMAGES  
+
 google images search - dog food
 
 chewy.com - now pet_image0005.jpg
@@ -27,3 +29,22 @@ dollartree.com - now pet_image0010.jpg
 naturalinstinct.com - now pet_image0011.jpg
 
 
+I got some of the validators from this site:
+https://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149
+
+
+
+Users that worked on this project
+
+Saxon
+Mitchell
+Andrew
+
+
+
+
+Mainly tested using firefox but also checked chrome to see if it works
+
+
+
+The layout was a mix of a few sites that i found and i put alot of the buttons in places where i would instinctivly look for them 

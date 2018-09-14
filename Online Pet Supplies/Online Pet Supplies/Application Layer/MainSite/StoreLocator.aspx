@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-
+    <%-- Page showing the location of our physical store --%>
     <h1> Stores across Australia</h1>
 
     <div> 

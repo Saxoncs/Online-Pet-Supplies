@@ -4,6 +4,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-
+    <%-- Simple button to show the process of using the shopping cart after they have been added from either the product page or the catalogue page  --%>
     <asp:Button ID="Button1" runat="server" Text="Buy Now" OnClick="PostagePage"  />
 </asp:Content>

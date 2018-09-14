@@ -15,7 +15,7 @@ namespace Online_Pet_Supplies.Application_Layer.AdminSite
         protected void Page_Load(object sender, EventArgs e)
         {
             // hardcoded value will be replaced with a link to the database in future
-            // for now it kicks the user out if it's not the specific admin user
+            // for now it kicks the user out if it's not the specific admin user using the session variable username
             if ((string)Session["username"] != "Admin")
             {
                 Server.Transfer("/Application Layer/MainSite/HomePage.aspx", true);
