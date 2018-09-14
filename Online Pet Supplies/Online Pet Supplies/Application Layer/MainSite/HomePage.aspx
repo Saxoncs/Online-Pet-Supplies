@@ -6,10 +6,16 @@
 <%-- Home page consists of a single image and somestatic text --%>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-      <div style="text-align: center;">
+    <div style="text-align: center;">
        <h1> Welcome to pet supplies online your one stop Pet supplies shop</h1>
-       <img src =" images/catalogueLogo.jpg" style="max-width: 100%; height: auto;" alt="Catalogue image" />
-    
+           <a href="Catalogue.aspx">
+                <img src =" images/catalogueLogo.jpg" style="max-width: 50%; height: auto;" alt="Catalogue image"  />
+            </a> 
+        <h2>Click the image above to check out the best catalogue you have evr seen in your life</h2>
+        
+
+
+     
 
           
           

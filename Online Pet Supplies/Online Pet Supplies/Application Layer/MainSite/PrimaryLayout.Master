@@ -8,6 +8,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="/Content/bootstrap.min.css"/>
+  <link rel="stylesheet" href="/Application Layer/MainSite/CSS/MainSite.css"/>
   <script src="/scripts/jquery.min.js"></script>
   <script src="/scripts/bootstrap.min.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -16,20 +17,24 @@
 
 
 <body>
-<!-- nav bar for left side of the master page -->   
+<!-- nav bar for Top of the master page -->   
 
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Online Pet Supplies</a>
+      <a class="navbar-brand" href="HomePage.aspx">Online Pet Supplies</a>
     </div>
+
+<!-- Left side top nav links -->   
     <ul class="nav navbar-nav">
       <li><a href="HomePage.aspx">Home</a></li>
       <li><a href="Catalogue.aspx">Catalogue</a></li>
       <li><a href="Contact.aspx">Contact</a></li>
       <li><a href="AboutUs.aspx">About Us</a></li>
-       <li><a href="PurchaseHistory.aspx">Purchase history</a></li>
+
+
+ <!-- Left side right nav links -->        
     </ul>
       <ul class="nav navbar-nav navbar-right">
       <li><a href="Registration.aspx">Sign Up</a> </li>
@@ -45,14 +50,39 @@
   <p>Welcome Friends</p> 
 </div>
 
+ <%--side bar navigation --%>
 
 
-<%-- placeholder for an individual page's content --%>
-<form id="form2" runat="server">
+  <div class="col-sm-2" id ="firstCol">
+
+
+ <div class="vertical-menu">
+  <a href="HomePage.aspx">Home</a>
+  <a href="Catalogue.aspx">Catalogue</a>
+  <a href="PurchaseHistory.aspx">Purchase History</a>
+  <a href="StoreLocator.aspx">Store Locator</a>
+  <a href="#">Link 4</a>
+</div>       
+
+</div>
+
+
+<%-- container for main content  --%>
+
+ <div class="col-sm-8 ">
+      
+ <form id="form2" runat="server">
   <div>
-     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">   </asp:ContentPlaceHolder>
+    
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">   </asp:ContentPlaceHolder>  <%-- placeholder for an individual page's content --%>
   </div>
 </form>
+</div>
+
+    <div class="col-sm-2 ">
+        </div> 
+
+<
 
 
 
