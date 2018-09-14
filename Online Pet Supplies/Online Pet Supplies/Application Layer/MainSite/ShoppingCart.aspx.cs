@@ -14,5 +14,10 @@ namespace Online_Pet_Supplies.Application_Layer
         {
 
         }
+
+        protected void PostagePage(object sender, EventArgs e)
+        {
+            Response.Redirect("/Application Layer/MainSite/Postage.aspx");
+        }
     }
 }

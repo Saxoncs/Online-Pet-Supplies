@@ -38,7 +38,7 @@
         <br/>
 
         <%-- submission button --%>
-         <asp:Button ID="submitPayment" runat="server" Text="Pay now" />
+         <asp:Button ID="submitPayment" runat="server" Text="Pay now" OnClick="submitPayment_Click" />
         </div>
    
 </asp:Content>

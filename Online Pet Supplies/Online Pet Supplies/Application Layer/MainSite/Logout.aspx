@@ -6,7 +6,7 @@
 <%-- page consists of a small piece of static text --%>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div 
+    
     <h1>have been logged out</h1> 
     
 

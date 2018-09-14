@@ -91,6 +91,6 @@
      </div>
 
     <%-- Submission button --%>
-    <asp:Button ID="btnSubmitRegistrationForm" runat="server" Text="Submit Form" />
+    <asp:Button ID="btnSubmitRegistrationForm" runat="server" Text="Register" />
 
 </asp:Content>

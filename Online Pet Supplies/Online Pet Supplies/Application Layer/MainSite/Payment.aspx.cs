@@ -15,5 +15,10 @@ namespace Online_Pet_Supplies.Application_Layer
             //Stores the current date as a string to be used in the expiration date validator
             DateValidator.MinimumValue = System.DateTime.Now.ToString("dd-MM-yyyy");
         }
+
+        protected void submitPayment_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Application Layer/MainSite/OrderConfirmation.aspx");
+        }
     }
 }

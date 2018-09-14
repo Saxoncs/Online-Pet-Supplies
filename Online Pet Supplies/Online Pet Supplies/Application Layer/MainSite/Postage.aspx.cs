@@ -14,5 +14,15 @@ namespace Online_Pet_Supplies.Application_Layer.MainSite
         {
 
         }
+
+        protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void BtnSubmitPostageForm_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Application Layer/MainSite/Payment.aspx");
+        }
     }
 }
