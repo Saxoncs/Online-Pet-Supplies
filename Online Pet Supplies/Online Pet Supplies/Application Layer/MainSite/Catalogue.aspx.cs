@@ -19,5 +19,10 @@ namespace Online_Pet_Supplies.Application_Layer
         {
 
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

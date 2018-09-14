@@ -18,7 +18,7 @@ namespace Online_Pet_Supplies.Models
             P_Products.Add(new Products() { Name = "Horse Food", Url = "", Price = 100 });
         }
 
-        public List<Products> ProductList
+        public List<Products> GetProductList
         {
             get { return P_Products; }
         }
