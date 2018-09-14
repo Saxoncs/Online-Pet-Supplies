@@ -22,6 +22,15 @@ namespace Online_Pet_Supplies.Application_Layer.MainSite {
         protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
         
         /// <summary>
+        /// postage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator postage;
+        
+        /// <summary>
         /// txtStreet control.
         /// </summary>
         /// <remarks>

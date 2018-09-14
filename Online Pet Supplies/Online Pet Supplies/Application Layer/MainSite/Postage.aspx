@@ -1,20 +1,24 @@
 ﻿<%-- Postage page --%>
 <%@ Page Title="Postage" Language="C#" MasterPageFile="~/Application Layer/MainSite/PrimaryLayout.Master" AutoEventWireup="true" CodeBehind="Postage.aspx.cs" Inherits="Online_Pet_Supplies.Application_Layer.MainSite.Postage" %>
 
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
     <h1>Choose your postage options</h1>
     
   <%-- Postage options checklist --%>
-    
-
-
     <asp:RadioButtonList ID="RadioButtonList1" runat="server">
         <asp:ListItem> Standard Postage 3-6 days</asp:ListItem>
         <asp:ListItem> Express 1-2 days</asp:ListItem>
     </asp:RadioButtonList>
+
+     <asp:RequiredFieldValidator ID="postage" runat="server" ControlToValidate="RadioButtonList1" ErrorMessage="Please pick a postage option" >
+     </asp:RequiredFieldValidator>
+       
+
+    <h2> Please enter your postage address</h2>
+
 
      <br/>Street<br/>
     <asp:TextBox ID="txtStreet" runat="server"></asp:TextBox>

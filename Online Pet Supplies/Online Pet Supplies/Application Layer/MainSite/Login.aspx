@@ -10,6 +10,12 @@
 
     <h2>Please enter your details to login to the Online Pet Supplies website.</h2>
 
+
+    <%-- User name and passwords are located in the models/logindetails class --%>
+    <%-- User name and passwords are located in the models/logindetails class --%>
+      <%-- IMPORTANT to access the admin side of the site you must enter the correct details into the login page --%>
+
+
     <%-- Username field, contains a required field validator --%>
     <br />Username<br/>
     <asp:TextBox ID="userName" runat="server"></asp:TextBox> <br/>
@@ -25,6 +31,6 @@
     <%-- Submit button --%>
     <br />
     <asp:Button ID="SubmitButton" runat="server" Text="Login" Clicked="UsernameSesh" OnClick="SubmitButton_Click"  />
-    <br/><br />
+
     
 </asp:Content>

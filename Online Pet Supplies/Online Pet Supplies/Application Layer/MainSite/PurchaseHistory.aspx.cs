@@ -13,7 +13,25 @@ namespace Online_Pet_Supplies.Application_Layer
         protected void Page_Load(object sender, EventArgs e)
         {
             //A simple session data test
-            UserSesh.Text = (string)Session["username"];
+            if (Session["username"] == null)
+
+            {
+                UserSesh.Text = "you must be looged in to view this page";
+            }
+
+            else
+             
+            {
+                loginButton.Visible = false;
+                UserSesh.Text = "Welcome " + (string)Session["username"];
+            }
+
+        }
+
+        protected void Loginredirect(object sender, EventArgs e)
+
+        {
+            Response.Redirect("/Application Layer/MainSite/Login.aspx");
         }
     }
 }
