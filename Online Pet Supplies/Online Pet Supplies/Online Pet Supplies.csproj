@@ -1133,6 +1133,7 @@
     <Compile Include="Application Layer\MainSite\StoreLocator.aspx.designer.cs">
       <DependentUpon>StoreLocator.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DataAccessLayer\products.cs" />
     <Compile Include="Models\LoginDetails.cs" />
     <Compile Include="Models\Products.cs" />
     <Compile Include="Models\ProductsAdd.cs" />

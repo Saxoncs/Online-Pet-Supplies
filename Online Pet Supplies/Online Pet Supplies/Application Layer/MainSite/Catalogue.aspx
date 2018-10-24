@@ -7,7 +7,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-<%-- A search box that will search the products when we have a database full of them  --%>
+    <%-- A search box that will search the products when we have a database full of them  --%>
 
    <div>
            <span>Search For Product: </span>
