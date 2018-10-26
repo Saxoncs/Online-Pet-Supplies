@@ -1135,12 +1135,12 @@
     <Compile Include="Application Layer\MainSite\StoreLocator.aspx.designer.cs">
       <DependentUpon>StoreLocator.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DataAccessLayer\Administrator.cs" />
-    <Compile Include="DataAccessLayer\OrderedItem.cs" />
-    <Compile Include="DataAccessLayer\OnlineOrder.cs" />
-    <Compile Include="DataAccessLayer\Discount.cs" />
-    <Compile Include="DataAccessLayer\Customer.cs" />
-    <Compile Include="DataAccessLayer\Item.cs" />
+    <Compile Include="Business Layer\Administrator.cs" />
+    <Compile Include="Business Layer\OrderedItem.cs" />
+    <Compile Include="Business Layer\OnlineOrder.cs" />
+    <Compile Include="Business Layer\Discount.cs" />
+    <Compile Include="Business Layer\Customer.cs" />
+    <Compile Include="Business Layer\Item.cs" />
     <Compile Include="Models\LoginDetails.cs" />
     <Compile Include="Models\Products.cs" />
     <Compile Include="Models\ProductsAdd.cs" />
@@ -1161,7 +1161,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Business Layer\" />
+    <Folder Include="DataAccessLayer\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
