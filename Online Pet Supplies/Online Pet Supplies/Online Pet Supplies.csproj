@@ -1136,6 +1136,7 @@
       <DependentUpon>StoreLocator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Business Layer\Administrator.cs" />
+    <Compile Include="Business Layer\CartItem.cs" />
     <Compile Include="Business Layer\OrderedItem.cs" />
     <Compile Include="Business Layer\OnlineOrder.cs" />
     <Compile Include="Business Layer\Discount.cs" />
