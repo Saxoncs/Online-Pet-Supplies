@@ -1137,6 +1137,9 @@
     </Compile>
     <Compile Include="Business Layer\Administrator.cs" />
     <Compile Include="Business Layer\CartItem.cs" />
+    <Compile Include="Business Layer\INFT3050PaymentFactory.cs" />
+    <Compile Include="Business Layer\INFT3050PaymentSystem.cs" />
+    <Compile Include="Business Layer\IPaymentSystem.cs" />
     <Compile Include="Business Layer\OrderedItem.cs" />
     <Compile Include="Business Layer\OnlineOrder.cs" />
     <Compile Include="Business Layer\Discount.cs" />

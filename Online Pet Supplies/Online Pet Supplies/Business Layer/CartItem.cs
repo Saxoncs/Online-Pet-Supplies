@@ -36,7 +36,7 @@ namespace Online_Pet_Supplies.Business_Layer
             Item.Price.ToString("c"));
 
             //I added a return value so the function gives a string
-            //if that's not neccessary then just remove this and change public sting to public void
+            //if that's not neccessary then just remove this and change public string to public void
             return (displaystring);
 
         }
