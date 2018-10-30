@@ -1,17 +1,34 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
+using System.Configuration;
 using System.Web;
+using System.Data;
+using System.Data.SqlClient;
+using System.ComponentModel;
 
 namespace Online_Pet_Supplies.DataAccessLayer
 {
-    public class Item
+
+    [DataObject(true)]
+    public static class Item
     {
-        public int ItemID { get; set; }
+        [DataObjectMethod (DataObjectMethodType.Select)]
+        public static IEnumerable GetAllItems()
+        {
+            SqlConnection con = new SqlConnection(GetConnectionString());
+            string sql = "SELECT * FROM Item ORDER BY name";
+            SqlCommand cmd = new SqlCommand(sql, con);
+            con.Open();
+            SqlDataReader dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+            return dr;
+        }
 
-        public String Name { get; set; }
-
-        public int Price { get; set; }
+        private static string GetConnectionString()
+        {
+            return ConfigurationManager.ConnectionStrings
+                ["ConnectionString1"].ConnectionString;
+        }
 
 
     }
