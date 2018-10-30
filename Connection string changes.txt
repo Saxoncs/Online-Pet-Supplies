@@ -1,0 +1,3 @@
+Saxon's connection string:
+    <add name="ConnectionString1" connectionString="Server=DESKTOP-M9956KN;Database=OnlinePetSupplies"
+      providerName="System.Data.SqlClient" />
