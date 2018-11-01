@@ -40,5 +40,6 @@
         <%-- submission button --%>
          <asp:Button ID="submitPayment" runat="server" Text="Pay now" OnClick="submitPayment_Click" />
         </div>
+    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
    
 </asp:Content>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace INFT3050.PaymentSystem
+namespace Online_Pet_Supplies.Business_Layer
 {
     /// <summary>
     /// Result of a transaction

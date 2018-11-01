@@ -1,4 +1,4 @@
-﻿using Online_Pet_Supplies.DataAccessLayer;
+﻿using Online_Pet_Supplies.Business_Layer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,7 +37,7 @@ namespace Online_Pet_Supplies.Business_Layer
 
             //I added a return value so the function gives a string
             //if that's not neccessary then just remove this and change public string to public void
-            return (displaystring);
+            return displaystring;
 
         }
 

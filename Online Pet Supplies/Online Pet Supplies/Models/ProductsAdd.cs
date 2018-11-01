@@ -10,21 +10,15 @@ namespace Online_Pet_Supplies.Models
     {
         public ProductAdd()
         {
-            P_Products.Add(new Products() { Name = "Dog Food", Url = "I", Price = 29 });
-            P_Products.Add(new Products() { Name = "Cat Food", Url = "", Price = 29 });
-            P_Products.Add(new Products() { Name = "Cat Toy", Url = "", Price = 15 });
-            P_Products.Add(new Products() { Name = "Dog Toy", Url = "", Price = 17 });
-            P_Products.Add(new Products() { Name = "Flea Treatment", Url = "", Price = 50 });
-            P_Products.Add(new Products() { Name = "Horse Food", Url = "", Price = 100 });
+            GetProductList.Add(new Products() { Name = "Dog Food", Url = "I", Price = 29 });
+            GetProductList.Add(new Products() { Name = "Cat Food", Url = "", Price = 29 });
+            GetProductList.Add(new Products() { Name = "Cat Toy", Url = "", Price = 15 });
+            GetProductList.Add(new Products() { Name = "Dog Toy", Url = "", Price = 17 });
+            GetProductList.Add(new Products() { Name = "Flea Treatment", Url = "", Price = 50 });
+            GetProductList.Add(new Products() { Name = "Horse Food", Url = "", Price = 100 });
         }
 
-        public List<Products> GetProductList
-        {
-            get { return P_Products; }
-        }
-
-        
-        private List<Products> P_Products = new List<Products>();
+        public List<Products> GetProductList { get; } = new List<Products>();
     }
 
 }

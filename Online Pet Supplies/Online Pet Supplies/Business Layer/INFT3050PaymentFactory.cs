@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace INFT3050.PaymentSystem
+namespace Online_Pet_Supplies.Business_Layer
 {
     public static class INFT3050PaymentFactory
     {
