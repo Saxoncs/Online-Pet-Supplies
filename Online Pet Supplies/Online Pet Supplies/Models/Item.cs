@@ -7,7 +7,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.ComponentModel;
 
-namespace Online_Pet_Supplies.DataAccessLayer
+namespace Online_Pet_Supplies
 {
 
     [DataObject(true)]

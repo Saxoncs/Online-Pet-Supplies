@@ -5,16 +5,12 @@ using System.Web;
 
 namespace Online_Pet_Supplies.Business_Layer
 {
-
-        public class Item
-        {
-            public string ItemID { get; set; }
-
-            public string Name { get; set; }
-
-            public int Price { get; set; }
+    public class Item
+    {
+        public int ItemID { get; set; }
+        public String Name { get; set; }
+        public decimal Price { get; set; }
 
 
-        }
-
+    }
 }

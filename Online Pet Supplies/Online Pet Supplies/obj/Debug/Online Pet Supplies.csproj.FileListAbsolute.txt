@@ -53,6 +53,7 @@ F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Syste
 F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csprojAssemblyReference.cache
 F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csproj.CoreCompileInputs.cache
 F:\Sax\Uni\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csproj.CopyComplete
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csproj.CoreCompileInputs.cache
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\ApplicationInsights.config
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Online Pet Supplies.dll.config
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Online Pet Supplies.dll
@@ -103,7 +104,7 @@ C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Onl
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csproj.CoreCompileInputs.cache
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csproj.CopyComplete
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.dll
 C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.pdb
+C:\Users\Macbook 15\Documents\GitHub\Online-Pet-Supplies\Online Pet Supplies\Online Pet Supplies\obj\Debug\Online Pet Supplies.csprojAssemblyReference.cache

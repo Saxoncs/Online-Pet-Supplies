@@ -24,7 +24,7 @@ namespace Online_Pet_Supplies.Business_Layer
             get { return cartItems[index]; }
         }
 
-        public CartItem this[string id]
+        public CartItem this[Int16 id]
         {
             get {
 
