@@ -1,4 +1,5 @@
 ﻿// Codebehind file for the Home page
+using Online_Pet_Supplies.Business_Layer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace Online_Pet_Supplies.Application_Layer.MainSite
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            CartItemList.GetCart();
         }
     }
 }

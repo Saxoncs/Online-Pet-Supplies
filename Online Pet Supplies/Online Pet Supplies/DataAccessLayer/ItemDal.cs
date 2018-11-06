@@ -27,7 +27,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
 
 
-        public List<Item> Read()
+        public List<Item> GetItems()
 
         {
 

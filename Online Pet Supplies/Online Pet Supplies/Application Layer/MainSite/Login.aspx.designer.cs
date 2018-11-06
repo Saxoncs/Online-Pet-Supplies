@@ -40,13 +40,13 @@ namespace Online_Pet_Supplies.Application_Layer {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator0;
         
         /// <summary>
-        /// password control.
+        /// passWord control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox password;
+        protected global::System.Web.UI.WebControls.TextBox passWord;
         
         /// <summary>
         /// RequiredFieldValidator1 control.

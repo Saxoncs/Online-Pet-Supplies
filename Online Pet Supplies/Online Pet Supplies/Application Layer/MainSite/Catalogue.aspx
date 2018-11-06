@@ -25,6 +25,7 @@
 <div style="text-align:right">
     <asp:GridView ID="GridView1" runat="server" DataSourceID="ObjectDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" AutoGenerateColumns="False">
         <Columns>
+            <asp:CommandField SelectText="Add To Cart" ShowSelectButton="True" />
             <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
             <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" />
             <asp:TemplateField ShowHeader="False" HeaderText="Add To Cart">

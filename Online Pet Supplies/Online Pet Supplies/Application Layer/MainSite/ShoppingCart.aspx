@@ -9,10 +9,6 @@
     
     
     <asp:Button ID="Button1" runat="server" Text="Buy Now" OnClick="PostagePage"  />
-    <asp:GridView ID="GridView1" runat="server" DataSourceID="ObjectDataSource1" AutoGenerateColumns="False">
-        <Columns>
-            <asp:BoundField DataField="Count" HeaderText="Count" ReadOnly="True" SortExpression="Count" />
-        </Columns>
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1">
     </asp:GridView>
-    <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetCart" TypeName="Online_Pet_Supplies.Business_Layer.CartItemList"></asp:ObjectDataSource>
-</asp:Content>
+    </asp:Content>

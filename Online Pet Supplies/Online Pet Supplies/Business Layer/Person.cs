@@ -15,7 +15,7 @@ namespace Online_Pet_Supplies.Business_Layer
         try
         {
                 Customer objdal = new DataAccessLayer.Customer();
-            return objdal.Read();
+            return objdal//.Read();
         }
         catch
         {

@@ -24,7 +24,7 @@
 
     <%-- Password field, contains a required field validator --%>
     <br/>Password<br/>
-    <asp:TextBox ID="password" runat="server"></asp:TextBox> <br/>
+    <asp:TextBox ID="passWord" runat="server"></asp:TextBox> <br/>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="password" CssClass="text-danger" ErrorMessage="You must enter your password." >
     </asp:RequiredFieldValidator>
 

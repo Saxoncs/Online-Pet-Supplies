@@ -1,4 +1,6 @@
 ﻿// Codebehind file for the Shopping Cart page
+using Online_Pet_Supplies.Business_Layer;
+using Online_Pet_Supplies.DataAccessLayer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +14,13 @@ namespace Online_Pet_Supplies.Application_Layer
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Item i = new Item();
+            i.ItemID = 1; i.Name = "apples"; i.Price = 1;
+
+            CartItemList a = new CartItemList();
+            a.AddItem(i, 1);
+            Session["Cart"] = a;
+
 
         }
 
