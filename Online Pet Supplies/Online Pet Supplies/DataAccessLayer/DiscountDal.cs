@@ -9,25 +9,23 @@ using System.Web;
 
 namespace Online_Pet_Supplies.DataAccessLayer
 {
-
-    public class ItemDAL
+    public class DiscountDal
     {
-
-        public string ConString = ConfigurationManager.ConnectionStrings ["ConnectionString1"].ConnectionString;
+        public string ConString = ConfigurationManager.ConnectionStrings["ConnectionString1"].ConnectionString;
 
         SqlConnection con = new SqlConnection();
 
         DataTable dt = new DataTable();
 
-        List<Item> List = new List<Item>();
+        List<Discount> List = new List<Discount>();
 
-        Item objP = null;
-
-
+        Discount objP = null;
 
 
 
-        public List<Item> GetItems()
+
+
+        public List<Discount> GetDiscounts()
 
         {
 
@@ -39,7 +37,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 con.Open();
 
-            SqlCommand cmd = new SqlCommand("select * from Item", con);
+            SqlCommand cmd = new SqlCommand("select * from Discount", con);
 
             try
 
@@ -51,13 +49,13 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 {
 
-                    objP = new Item();
+                    objP = new Discount();
 
-                    objP.ItemID = Convert.ToInt16(rd.GetValue(0));
+                    objP.DiscountCode = Convert.ToInt16(rd.GetValue(0));
 
-                    objP.Name = rd.GetString(1);
+                    objP.Description = rd.GetString(1);
 
-                    objP.Price = rd.GetDecimal(2);
+                    objP.DiscountPercent = rd.GetDecimal(2);
 
                     List.Add(objP);
 
@@ -81,7 +79,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
 
 
-        public List<Item> Read(int Id)
+        public List<Discount> Read(int Id)
 
         {
 
@@ -93,7 +91,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 con.Open();
 
-            SqlCommand cmd = new SqlCommand("select * from Item where itemID = " + Id + "", con);
+            SqlCommand cmd = new SqlCommand("select * from Discount where discountCode = " + Id + "", con);
 
             try
 
@@ -105,13 +103,13 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 {
 
-                    objP = new Item();
+                    objP = new Discount();
 
-                    objP.ItemID = Convert.ToInt16(rd.GetValue(0));
+                    objP.DiscountCode = Convert.ToInt16(rd.GetValue(0));
 
-                    objP.Name = rd.GetString(1);
+                    objP.Description = rd.GetString(1);
 
-                    objP.Price = rd.GetDecimal(2);
+                    objP.DiscountPercent = rd.GetDecimal(2);
 
                     List.Add(objP);
 
@@ -129,14 +127,5 @@ namespace Online_Pet_Supplies.DataAccessLayer
                 throw;
 
             }
-
         }
-
-
-
-
-
-
-    }
-
 }
