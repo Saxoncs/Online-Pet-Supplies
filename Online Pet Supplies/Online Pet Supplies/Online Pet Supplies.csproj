@@ -1149,11 +1149,15 @@
     <Compile Include="Business Layer\INFT3050PaymentFactory.cs" />
     <Compile Include="Business Layer\INFT3050PaymentSystem.cs" />
     <Compile Include="Business Layer\IPaymentSystem.cs" />
+    <Compile Include="DataAccessLayer\AdministratorDal.cs" />
+    <Compile Include="DataAccessLayer\DiscountDal.cs" />
     <Compile Include="DataAccessLayer\ItemDal.cs" />
+    <Compile Include="DataAccessLayer\OnlineOrderDal.cs" />
     <Compile Include="DataAccessLayer\OrderedItem.cs" />
     <Compile Include="DataAccessLayer\OnlineOrder.cs" />
     <Compile Include="DataAccessLayer\Discount.cs" />
     <Compile Include="DataAccessLayer\Customer.cs" />
+    <Compile Include="DataAccessLayer\OrderedItemDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Application Layer\MainSite\PurchaseHistory.aspx.cs">
       <DependentUpon>PurchaseHistory.aspx</DependentUpon>

@@ -9,25 +9,23 @@ using System.Web;
 
 namespace Online_Pet_Supplies.DataAccessLayer
 {
-
-    public class ItemDal
+    public class OrderedItemDal
     {
-
-        public string ConString = ConfigurationManager.ConnectionStrings ["ConnectionString1"].ConnectionString;
+        public string ConString = ConfigurationManager.ConnectionStrings["ConnectionString1"].ConnectionString;
 
         SqlConnection con = new SqlConnection();
 
         DataTable dt = new DataTable();
 
-        List<Item> List = new List<Item>();
+        List<OrderedItem> List = new List<OrderedItem>();
 
-        Item objP = null;
-
-
+        OrderedItem objP = null;
 
 
 
-        public List<Item> GetItems()
+
+
+        public List<OrderedItem> GetOrderedItems()
 
         {
 
@@ -39,7 +37,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 con.Open();
 
-            SqlCommand cmd = new SqlCommand("select * from Item", con);
+            SqlCommand cmd = new SqlCommand("select * from OrderedItem", con);
 
             try
 
@@ -51,13 +49,13 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 {
 
-                    objP = new Item();
+                    objP = new OrderedItem();
 
-                    objP.ItemID = Convert.ToInt16(rd.GetValue(0));
+                    objP.OrderID = Convert.ToInt16(rd.GetValue(0));
 
-                    objP.Name = rd.GetString(1);
+                    objP.ItemID = Convert.ToInt16(rd.GetValue(1));
 
-                    objP.Price = rd.GetDecimal(2);
+                    objP.Quantity = Convert.ToInt16(rd.GetValue(2));
 
                     List.Add(objP);
 
@@ -81,7 +79,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
 
 
-        public List<Item> Read(int Id)
+        public List<OrderedItem> Read(int itemId, int orderId)
 
         {
 
@@ -93,7 +91,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 con.Open();
 
-            SqlCommand cmd = new SqlCommand("select * from Item where itemID = " + Id + "", con);
+            SqlCommand cmd = new SqlCommand("select * from OrderedItem where itemID = " + itemId + " and orderID = " + orderId + " ", con);
 
             try
 
@@ -105,13 +103,13 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 {
 
-                    objP = new Item();
+                    objP = new OrderedItem();
 
                     objP.ItemID = Convert.ToInt16(rd.GetValue(0));
 
-                    objP.Name = rd.GetString(1);
+                    objP.OrderID = Convert.ToInt16(rd.GetValue(1));
 
-                    objP.Price = rd.GetDecimal(2);
+                    objP.Quantity = Convert.ToInt16(rd.GetValue(2));
 
                     List.Add(objP);
 
@@ -131,12 +129,6 @@ namespace Online_Pet_Supplies.DataAccessLayer
             }
 
         }
-
-
-
-
-
 
     }
-
 }

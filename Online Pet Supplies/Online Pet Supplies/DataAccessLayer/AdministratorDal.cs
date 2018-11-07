@@ -9,25 +9,20 @@ using System.Web;
 
 namespace Online_Pet_Supplies.DataAccessLayer
 {
-
-    public class ItemDal
+    public class AdministratorDal
     {
-
-        public string ConString = ConfigurationManager.ConnectionStrings ["ConnectionString1"].ConnectionString;
+        public string ConString = ConfigurationManager.ConnectionStrings["ConnectionString1"].ConnectionString;
 
         SqlConnection con = new SqlConnection();
 
         DataTable dt = new DataTable();
 
-        List<Item> List = new List<Item>();
+        List<Administrator> List = new List<Administrator>();
 
-        Item objP = null;
-
-
+        Administrator objP = null;
 
 
-
-        public List<Item> GetItems()
+        public List<Administrator> GetAdministrators()
 
         {
 
@@ -39,7 +34,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 con.Open();
 
-            SqlCommand cmd = new SqlCommand("select * from Item", con);
+            SqlCommand cmd = new SqlCommand("select * from Administrator", con);
 
             try
 
@@ -51,13 +46,13 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 {
 
-                    objP = new Item();
+                    objP = new Administrator();
 
-                    objP.ItemID = Convert.ToInt16(rd.GetValue(0));
+                    objP.AdminID = Convert.ToInt16(rd.GetValue(0));
 
-                    objP.Name = rd.GetString(1);
+                    objP.FirstName = rd.GetString(1);
 
-                    objP.Price = rd.GetDecimal(2);
+                    objP.LastName = rd.GetString(2);
 
                     List.Add(objP);
 
@@ -81,7 +76,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
 
 
-        public List<Item> Read(int Id)
+        public List<Administrator> Read(int Id)
 
         {
 
@@ -93,7 +88,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 con.Open();
 
-            SqlCommand cmd = new SqlCommand("select * from Item where itemID = " + Id + "", con);
+            SqlCommand cmd = new SqlCommand("select * from Administrator where adminID = " + Id + "", con);
 
             try
 
@@ -105,13 +100,13 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
                 {
 
-                    objP = new Item();
+                    objP = new Administrator();
 
-                    objP.ItemID = Convert.ToInt16(rd.GetValue(0));
+                    objP.AdminID = Convert.ToInt16(rd.GetValue(0));
 
-                    objP.Name = rd.GetString(1);
+                    objP.FirstName = rd.GetString(1);
 
-                    objP.Price = rd.GetDecimal(2);
+                    objP.LastName = rd.GetString(2);
 
                     List.Add(objP);
 
@@ -129,14 +124,5 @@ namespace Online_Pet_Supplies.DataAccessLayer
                 throw;
 
             }
-
         }
-
-
-
-
-
-
-    }
-
 }
