@@ -1,4 +1,5 @@
 ﻿//Codebehind file for the Admin registration page
+using Online_Pet_Supplies.Business_Layer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,13 +13,25 @@ namespace Online_Pet_Supplies.Application_Layer.AdminSite
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // hardcoded value will be replaced with a link to the database in future
-            // for now it kicks the user out if it's not the specific admin user
-            if ((string)Session["username"] != "Admin")
+
+        }
+
+        protected void btnSubmitRegistrationForm_Click(object sender, EventArgs e)
+        {
+            RegisterCustomerBL reg = new RegisterCustomerBL();
+
+            string cusType = "admin";
+            int registered = reg.RegisterAdmin(txtFirstName.Text, txtLastName.Text, txtEmailAddress.Text, txtPassword1.Text,cusType);
+            if (registered == 1)
             {
-                Server.Transfer("/Application Layer/MainSite/HomePage.aspx", true);
-                
+                Label1.Text = "Admin Account successfully created"; ;
+
             }
+            else if (registered == 2)
+                Label1.Text = "Error Please Try Again";
+
+            else if (registered == 3)
+                Label1.Text = "Email Address Already Exists";
         }
     }
-}
+    }

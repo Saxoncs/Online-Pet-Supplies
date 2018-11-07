@@ -21,35 +21,6 @@
     </asp:RequiredFieldValidator>
 
 
-    <br/>Address<br/>
-    <%-- Street address field, contains a required field validator --%>    
-    <br/>Street<br/>
-    <asp:TextBox ID="txtStreet" runat="server"></asp:TextBox>
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtStreet" CssClass="text-danger" ErrorMessage="You must enter a street." >
-    </asp:RequiredFieldValidator>
-
-
-    <%-- Town field, contains a required field validator --%>
-    <br/>Town<br/>
-    <asp:TextBox ID="txtTown" runat="server"></asp:TextBox>
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtTown" CssClass="text-danger" ErrorMessage="You must enter a town." >
-    </asp:RequiredFieldValidator>
-
-    <%-- postcode field, contains a required field validator and a regular expression validator to ensure the postcode is 4 digits --%>
-    <br/>Postcode<br/>
-    <asp:TextBox ID="txtPostCode" runat="server"></asp:TextBox>
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtPostCode" CssClass="text-danger" ErrorMessage="You must enter a postcode." >
-    </asp:RequiredFieldValidator>
-    <asp:RegularExpressionValidator ID="postCodeValidator" runat="server" ControlToValidate="txtPostCode" CssClass="text-danger" ValidationExpression="\d{4}" ErrorMessage="Must be a four digit number.">
-    </asp:RegularExpressionValidator>
-
-    <%-- Phone number field, contains a required field validator and a regular expression validator to ensure the number is 10 digits --%>
-    <br/>Phone Number<br/>
-    <asp:TextBox ID="txtPhoneNumber" runat="server"></asp:TextBox>
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtPhoneNumber" CssClass="text-danger" ErrorMessage="You must enter a phone number." >
-    </asp:RequiredFieldValidator>
-    <asp:RegularExpressionValidator ID="PhoneN" runat="server" ErrorMessage="Phone number must be 10 digits" CssClass="text-danger" Display="Dynamic"  ValidationExpression= "\d{10}" ControlToValidate="txtPhoneNumber">
-    </asp:RegularExpressionValidator>
 
     <%-- Email address field, contains a required field validator and a regular expression validator to ensure the text is a valid email address --%>
     <br/>E-mail Address<br/>
@@ -60,14 +31,6 @@
         CssClass="text-danger" ValidationExpression="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" ErrorMessage="Must be a valid email address.">
     </asp:RegularExpressionValidator>
 
-    <%-- username field, contains a required field validator and a regular expression validator to ensure the username is reasonable --%>
-    <br/>
-    <br/>Username<br/>
-    <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtUsername" CssClass="text-danger" ErrorMessage="You must enter a username." >
-    </asp:RequiredFieldValidator>
-         <asp:RegularExpressionValidator ID="userNameValidator" runat="server" ControlToValidate="txtUserName" CssClass="text-danger" ValidationExpression="^[a-z0-9_-]{3,16}$" ErrorMessage="Must be a valid username.">
-    </asp:RegularExpressionValidator>
 
     <%-- password field, contains a required field validator and a regular expression validator to ensure the username is reasonable --%>
     <br/>Password<br/>
@@ -88,5 +51,5 @@
 
     <br/><br />
     <%-- submission button --%>
-    <asp:Button ID="btnSubmitRegistrationForm" runat="server" Text="Submit Form" />
+    <asp:Button ID="btnSubmitRegistrationForm" runat="server" Text="Submit Form" OnClick="btnSubmitRegistrationForm_Click" /><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
 </asp:Content>

@@ -53,7 +53,8 @@
 
 
     <%-- E-mail address field, contains a required field validator and a regular expression validator to ensure the text is a valid email address --%>
-    <br/>E-mail Address - this will be your username    <asp:Label ID="Label1" runat="server" Text=""></asp:Label>    <br/>
+        <br/> <asp:Label ID="Label1" runat="server" Text=""></asp:Label>    <br/>
+    <br/>E-mail Address - this will be your username   <br/>
     <asp:TextBox ID="txtEmailAddress" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="txtEmailAddress" CssClass="text-danger" ErrorMessage="You must enter an e-mail address." >
     </asp:RequiredFieldValidator>

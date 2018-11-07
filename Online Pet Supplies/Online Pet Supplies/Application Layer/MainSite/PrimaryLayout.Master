@@ -34,13 +34,22 @@
       <li><a href="AboutUs.aspx">About Us</a></li>
         </ul>
 <ul class="nav navbar-nav navbar-right">
-  
+    <asp:LoginView  ID="LoginView1" runat="server">
 
+    	<AnonymousTemplate>
             <li><a href="Registration.aspx"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="ShoppingCart.aspx">Shopping Cart</a> </li>
             <li><a href="Login.aspx"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            
+        </AnonymousTemplate>
+
+    	<LoggedInTemplate>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> <asp:LoginName ID="LoginName1" runat="server" /></a></li>
+            <li><asp:LoginStatus ID="LoginStatus1" runat="server" /></li>
             <li><a href="ShoppingCart.aspx">Shopping Cart</a> </li>
             <li><a href="Logout.aspx">Logout</a> </li>
-    </
+    	</LoggedInTemplate>
+    </asp:LoginView>
 </nav>
  
 

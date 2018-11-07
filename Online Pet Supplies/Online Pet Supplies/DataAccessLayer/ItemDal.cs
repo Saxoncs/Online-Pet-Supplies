@@ -25,6 +25,68 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
 
 
+        public void DeleteItem(int ItemID)
+        {
+            con.ConnectionString = ConString;
+            if (ConnectionState.Closed == con.State)
+                con.Open();
+            SqlCommand cmd = new SqlCommand("Delete from Item where ItemID = " + ItemID + "", con);
+            try
+            {
+               cmd.ExecuteNonQuery();
+                con.Close();
+               // if (updated > 0)
+                    //return 1;
+                //else
+                
+                    //return 2;
+                
+            }
+            catch
+            {
+                ; throw;
+            }
+        }
+
+        public void Insert(string Name,int Price)
+        {
+            con.ConnectionString = ConString;
+            if (ConnectionState.Closed == con.State)
+                con.Open();
+            SqlCommand cmd = new SqlCommand("INSERT INTO Item VALUEs (@name,@price,@adminID)", con);
+            try
+            {
+
+                cmd.Parameters.AddWithValue("@name", Name);
+                cmd.Parameters.AddWithValue("@price", Price);
+                cmd.Parameters.AddWithValue("@adminID", 1);
+
+
+                int recordsAffected = cmd.ExecuteNonQuery();
+                con.Close();
+
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         public List<Item> GetItems()

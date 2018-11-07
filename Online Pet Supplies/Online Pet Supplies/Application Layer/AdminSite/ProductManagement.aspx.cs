@@ -1,4 +1,5 @@
 ﻿//Codebehind file for Product management page
+using Online_Pet_Supplies.Business_Layer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,20 @@ namespace Online_Pet_Supplies.Application_Layer.AdminSite
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+            ItemBL ins = new ItemBL();
+            ins.InsertItem(TextBox2.Text, Convert.ToInt32(TextBox1.Text));
+
+        }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }

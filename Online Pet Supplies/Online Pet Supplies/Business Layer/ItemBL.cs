@@ -46,8 +46,34 @@ namespace Online_Pet_Supplies.Business_Layer
             }
         }
 
+        public void DeleteItem(int ItemID)
+        {
+            try
+            {
+                ItemDal itemDal = new ItemDal();
+                itemDal.DeleteItem(ItemID);
+
+            }
+            catch
+            {
+                throw;
+            }
+        }
 
 
+        public void InsertItem(string Name,int Price)
+        {
+            try
+            {
+                ItemDal insertItem = new ItemDal();
+                insertItem.Insert(Name,Price);
+
+            }
+            catch
+            {
+                throw;
+            }
+        }
 
 
     }

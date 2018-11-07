@@ -23,13 +23,16 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
 
 
-        public int checkEmail(string email)
+        public int checkEmail(string email,string userType)
 
         {
             con.ConnectionString = ConString;
             if (ConnectionState.Closed == con.State)
                 con.Open();
-            SqlCommand cmd = new SqlCommand("Select * from Customer where email = '" + email +  "'", con);
+            SqlCommand cmd;
+            if (userType == "customer")
+            { cmd = new SqlCommand("Select * from Customer where email = '" + email + "'", con); }
+            else { cmd = new SqlCommand("Select * from Administrator where email = '" + email + "'", con); }
             try
             {
                 try
@@ -88,9 +91,40 @@ namespace Online_Pet_Supplies.DataAccessLayer
             }
             catch
             {
-                ; throw;
+                 throw;
             }
         }
+
+        public int AdminRegister(string FirstName, string LastName,string Email, string Password)
+        {
+            con.ConnectionString = ConString;
+            if (ConnectionState.Closed == con.State)
+                con.Open();
+            SqlCommand cmd = new SqlCommand("INSERT INTO Administrator VALUEs (@email,@firstname,@lastname,@password)", con);
+            try
+            {
+                cmd.Parameters.AddWithValue("@email", Email);
+                cmd.Parameters.AddWithValue("@firstname", FirstName);
+                cmd.Parameters.AddWithValue("@lastname", LastName);
+                cmd.Parameters.AddWithValue("@password", Password);
+
+
+                int recordsAffected = cmd.ExecuteNonQuery();
+                con.Close();
+                if (recordsAffected > 0)
+                    return 1;
+                else return 2;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+
+
+
+
         //'"  + FirstName + "','" + LastName + "','" + Street + "','" + Town + "," + Postcode + "','" + Email + "'," + Password + ")"
     }
     }

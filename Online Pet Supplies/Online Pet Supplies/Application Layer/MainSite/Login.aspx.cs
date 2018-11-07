@@ -30,7 +30,9 @@ namespace Online_Pet_Supplies.Application_Layer
                 {
                     username = userName.Text,
                     password = passWord.Text
+                    
                 };
+
                 int loginSuccess = log.TryLogin();
                 if (loginSuccess == 1)
                 {
