@@ -18,7 +18,7 @@ namespace Online_Pet_Supplies.Business_Layer
 
             {
 
-                ItemDAL objdal = new ItemDAL();
+                ItemDal objdal = new ItemDal();
 
                 return objdal.GetItems();
 
@@ -37,7 +37,7 @@ namespace Online_Pet_Supplies.Business_Layer
         {
             try
             {
-                ItemDAL objdal = new ItemDAL();
+                ItemDal objdal = new ItemDal();
                 return objdal.Read(ID);
             }
             catch

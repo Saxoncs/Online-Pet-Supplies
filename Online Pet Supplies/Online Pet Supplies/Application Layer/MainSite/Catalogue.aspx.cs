@@ -1,4 +1,5 @@
 ﻿// Codebehind file for the catalogue page
+using Online_Pet_Supplies.Business_Layer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace Online_Pet_Supplies.Application_Layer
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            GridView1.DataSourceID = "ObjectDataSource1";
         }
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -22,6 +23,13 @@ namespace Online_Pet_Supplies.Application_Layer
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        protected void btnSearchBar_Click(object sender, EventArgs e)
+        {
+
+            GridView1.DataSourceID = "ObjectDataSource2";
 
         }
     }

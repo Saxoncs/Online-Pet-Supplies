@@ -53,7 +53,7 @@
 
 
     <%-- E-mail address field, contains a required field validator and a regular expression validator to ensure the text is a valid email address --%>
-    <br/>E-mail Address<br/>
+    <br/>E-mail Address - this will be your username    <asp:Label ID="Label1" runat="server" Text=""></asp:Label>    <br/>
     <asp:TextBox ID="txtEmailAddress" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="txtEmailAddress" CssClass="text-danger" ErrorMessage="You must enter an e-mail address." >
     </asp:RequiredFieldValidator>
@@ -61,17 +61,8 @@
         CssClass="text-danger" ValidationExpression="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" ErrorMessage="Must be a valid email address.">
     </asp:RegularExpressionValidator>
 
-
-
     <br/>
-    <%-- Username field, contains a required field validator and a regular expression validator to ensure the username is reasonable --%>
-    <br/>Username<br/>
-    <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtUsername" CssClass="text-danger" ErrorMessage="You must enter a username." >
-    </asp:RequiredFieldValidator>
-     <asp:RegularExpressionValidator ID="userNameValidator" runat="server" ControlToValidate="txtUserName" CssClass="text-danger" ValidationExpression="^[a-z0-9_-]{3,16}$" ErrorMessage="Must be a valid username.">
-    </asp:RegularExpressionValidator>
-    
+
     <%-- Password field, contains a required field validator and a regular expression validator to ensure the password is reasonable --%>
     <br/>Password<br/>
     <asp:TextBox ID="txtPassword1" runat="server"></asp:TextBox>
@@ -91,6 +82,6 @@
      </div>
 
     <%-- Submission button --%>
-    <asp:Button ID="btnSubmitRegistrationForm" runat="server" Text="Register" />
+    <asp:Button ID="btnSubmitRegistrationForm" runat="server" Text="Register" OnClick="btnSubmitRegistrationForm_Click" />
 
 </asp:Content>

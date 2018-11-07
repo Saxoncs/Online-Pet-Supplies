@@ -11,13 +11,14 @@
     <h2>Please enter your details to login to the Online Pet Supplies website.</h2>
 
 
-    <%-- User name and passwords are located in the models/logindetails class --%>
-    <%-- User name and passwords are located in the models/logindetails class --%>
-      <%-- IMPORTANT to access the admin side of the site you must enter the correct details into the login page --%>
+
 
 
     <%-- Username field, contains a required field validator --%>
+    <asp:Label ID="Label1" CssClass="text-danger" runat="server" Text=""></asp:Label>
+
     <br />Username<br/>
+    
     <asp:TextBox ID="userName" runat="server"></asp:TextBox> <br/>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator0" runat="server" ControlToValidate="userName" CssClass="text-danger" ErrorMessage="You must enter a registered username." >
     </asp:RequiredFieldValidator>

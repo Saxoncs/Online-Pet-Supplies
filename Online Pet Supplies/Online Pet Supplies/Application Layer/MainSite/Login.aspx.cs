@@ -3,6 +3,7 @@ using Online_Pet_Supplies.Application_Layer.MainSite;
 using Online_Pet_Supplies.Business_Layer;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Security;
@@ -15,7 +16,8 @@ namespace Online_Pet_Supplies.Application_Layer
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string url = ConfigurationManager.AppSettings["SecurePath"] + "login.aspx";
+            Response.Redirect(url);
         }
 
         // If the form is valid gets the username and password and get a 1 or a 2 if its valid or not from the BL
@@ -24,17 +26,19 @@ namespace Online_Pet_Supplies.Application_Layer
             if (IsValid)
 
             {
-                string checkUsername = userName.Text;
-                string checkPass = passWord.Text;
-                LoginDetails a = new LoginDetails();
-                int loginSuccess = a.TryLogin(checkUsername, checkPass);
+                LoginDetails log = new LoginDetails
+                {
+                    username = userName.Text,
+                    password = passWord.Text
+                };
+                int loginSuccess = log.TryLogin();
                 if (loginSuccess == 1)
                 {
                     Response.Redirect("/Application Layer/MainSite/HomePage.aspx");
-                    HttpContext.Current.Session["Login"] = checkUsername;
+                    HttpContext.Current.Session["Login"] = userName.Text;
                 }
                 else
-                    Response.Redirect("/Application Layer/MainSite/Contact.aspx");
+                    Label1.Text =  "Email address or password is incorrect" ;
             }   
             
         }

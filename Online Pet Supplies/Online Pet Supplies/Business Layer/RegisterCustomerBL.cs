@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Online_Pet_Supplies.DataAccessLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,16 +8,42 @@ namespace Online_Pet_Supplies.Business_Layer
 {
     public class RegisterCustomerBL
     {
-        
-        string firstName { get; set; }
-        string lastName { get; set; }
-        string street { get; set; }
-        string town { get; set; }
-        string postcode { get; set; }
 
 
+
+
+
+        public int RegisterUser(string FirstName,string LastName,string Street,string Town,string Postcode,string Email,string Password)
+        {
+
+            
+
+            try
+            {
+                RegisterDAL rUser = new RegisterDAL();
+                if (rUser.checkEmail(Email) == 1)
+                    return 3;
+                
+                else 
+                return rUser.UserRegister(FirstName, LastName,Street,Town,Convert.ToInt32(Postcode), Email,Password);
+            }
+            catch
+            {
+                throw;
+            }
+
+        }
     }
-
-    public int Registeruser()
-
 }
+
+
+
+    
+
+
+
+
+
+
+
+

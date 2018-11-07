@@ -12,17 +12,18 @@ namespace Online_Pet_Supplies.Business_Layer
         public string password;
 
 
-        public int TryLogin(string UserName, string Password)
+        public int TryLogin()
         {
-            LoginDAL c = new LoginDAL();
-            username = UserName;
-           password = Password;
-            int loginSuccess;
-            loginSuccess = c.UserValidate(username, password);
-            if (loginSuccess == 1)
-                return 1;
-            else return 2;
-
+            try
+            {
+             LoginDAL lDal = new LoginDAL();
+                
+                return lDal.UserValidate(username, password);
+            }
+            catch
+            {
+                throw;
+            }
 
         }
     }

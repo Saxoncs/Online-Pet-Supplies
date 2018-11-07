@@ -28,7 +28,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
                 con.ConnectionString = ConString;
                 if (ConnectionState.Closed == con.State)
                     con.Open();
-                SqlCommand cmd = new SqlCommand("select * from Administrator where firstName = '" + username + "' and lastName = '" + password + "'", con);
+                SqlCommand cmd = new SqlCommand("select * from Customer where email = '" + username + "' and password = '" + password + "'", con);
                 try
                 {
                     SqlDataReader rd = cmd.ExecuteReader();

@@ -10,7 +10,7 @@ using System.Web;
 namespace Online_Pet_Supplies.DataAccessLayer
 {
 
-    public class ItemDAL
+    public class ItemDal
     {
 
         public string ConString = ConfigurationManager.ConnectionStrings ["ConnectionString1"].ConnectionString;
