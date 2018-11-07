@@ -7,7 +7,7 @@ namespace Online_Pet_Supplies.Business_Layer
 {
     public class RegisterCustomerBL
     {
-        int customerID { get; set; }
+        
         string firstName { get; set; }
         string lastName { get; set; }
         string street { get; set; }
@@ -16,4 +16,7 @@ namespace Online_Pet_Supplies.Business_Layer
 
 
     }
+
+    public int Registeruser()
+
 }
