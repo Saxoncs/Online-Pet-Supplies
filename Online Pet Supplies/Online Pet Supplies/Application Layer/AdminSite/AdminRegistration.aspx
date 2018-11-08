@@ -51,5 +51,5 @@
 
     <br/><br />
     <%-- submission button --%>
-    <asp:Button ID="btnSubmitRegistrationForm" runat="server" Text="Submit Form" OnClick="btnSubmitRegistrationForm_Click" /><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    <asp:Button ID="btnSubmitRegistrationForm" runat="server" Text="Submit Form" OnClick="btnSubmitRegistrationForm_Click" /><asp:Label ID="Label1" runat="server" Text=""></asp:Label>
 </asp:Content>

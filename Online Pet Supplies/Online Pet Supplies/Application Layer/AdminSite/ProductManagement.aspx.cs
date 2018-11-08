@@ -20,7 +20,7 @@ namespace Online_Pet_Supplies.Application_Layer.AdminSite
         {
 
             ItemBL ins = new ItemBL();
-            ins.InsertItem(TextBox2.Text, Convert.ToInt32(TextBox1.Text));
+            ins.InsertItem(nameBox.Text, Convert.ToInt32(priceBox.Text));
 
         }
 
