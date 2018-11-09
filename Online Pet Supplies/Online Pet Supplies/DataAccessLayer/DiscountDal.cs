@@ -9,6 +9,7 @@ using System.Web;
 
 namespace Online_Pet_Supplies.DataAccessLayer
 {
+    // Takes information from the database and converts it into Administrator objects for the business layer
     public class DiscountDal
     {
         public string ConString = ConfigurationManager.ConnectionStrings["ConnectionString1"].ConnectionString;
@@ -24,7 +25,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
 
 
-
+        // Create a list of all Discounts in the database
         public List<Discount> GetDiscounts()
 
         {
@@ -78,7 +79,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
         }
 
 
-
+        // Create a list containing only the discount specified by the id
         public List<Discount> Read(int Id)
 
         {

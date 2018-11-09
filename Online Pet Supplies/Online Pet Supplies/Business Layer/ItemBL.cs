@@ -7,6 +7,7 @@ using System.Web;
 
 namespace Online_Pet_Supplies.Business_Layer
 {
+    //Business Layer class for utilising items in the business layer
     public class ItemBL
     {
 

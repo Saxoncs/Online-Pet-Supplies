@@ -8,6 +8,7 @@ using System.Web;
 
 namespace Online_Pet_Supplies.DataAccessLayer
 {
+    //Uses Customer and Administrator information to be compared to login details
     public class LoginDAL
     {
         

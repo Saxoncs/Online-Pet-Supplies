@@ -9,7 +9,7 @@ using System.Web;
 
 namespace Online_Pet_Supplies.DataAccessLayer
 {
-
+    // Takes information from the database and converts it into Item objects for the business layer
     public class ItemDal
     {
 
@@ -24,7 +24,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
         Item objP = null;
 
 
-
+        // delete an item from the database based on the itemID granted
         public void DeleteItem(int ItemID)
         {
             con.ConnectionString = ConString;
@@ -48,6 +48,8 @@ namespace Online_Pet_Supplies.DataAccessLayer
             }
         }
 
+
+        // insert a new item with into the database with a  name and a price
         public void Insert(string Name,int Price)
         {
             con.ConnectionString = ConString;

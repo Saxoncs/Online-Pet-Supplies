@@ -9,6 +9,7 @@ using System.Web;
 
 namespace Online_Pet_Supplies.DataAccessLayer
 {
+    // takes classes created in the business layer and writes them into the database.
     public class RegisterDAL
     {
 
@@ -64,7 +65,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
 
 
 
-
+        // Converts information passed into a row in the customer database table
         public int UserRegister(string FirstName, string LastName, string Street, string Town, int Postcode, string Email, string Password)
         {
             con.ConnectionString = ConString;
@@ -95,6 +96,8 @@ namespace Online_Pet_Supplies.DataAccessLayer
             }
         }
 
+
+        //Converts information passed to it into an Administrator row in the database
         public int AdminRegister(string FirstName, string LastName,string Email, string Password)
         {
             con.ConnectionString = ConString;

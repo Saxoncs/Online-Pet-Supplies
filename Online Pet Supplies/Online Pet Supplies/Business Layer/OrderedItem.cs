@@ -5,6 +5,7 @@ using System.Web;
 
 namespace Online_Pet_Supplies.Business_Layer
 {
+    // class containing information from the Ordered Item table in the database
     public class OrderedItem
     {
         public int OrderID { get; set; }

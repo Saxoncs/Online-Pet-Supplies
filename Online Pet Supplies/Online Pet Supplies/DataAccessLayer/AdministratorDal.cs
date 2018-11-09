@@ -9,6 +9,7 @@ using System.Web;
 
 namespace Online_Pet_Supplies.DataAccessLayer
 {
+    // Takes information from the database and converts it into Administrator objects for the business layer
     public class AdministratorDal
     {
         public string ConString = ConfigurationManager.ConnectionStrings["ConnectionString1"].ConnectionString;
@@ -22,6 +23,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
         Administrator objP = null;
 
 
+        // Generate a list of all administrators information
         public List<Administrator> GetAdministrators()
 
         {
@@ -75,7 +77,7 @@ namespace Online_Pet_Supplies.DataAccessLayer
         }
 
 
-
+        //generate a specific administrator based on the ID it is passed
         public List<Administrator> Read(int Id)
 
         {

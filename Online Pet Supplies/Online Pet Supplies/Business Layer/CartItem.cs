@@ -6,6 +6,8 @@ using System.Web;
 
 namespace Online_Pet_Supplies.Business_Layer
 {
+    //Class containing items placed in a users cart
+
     public class CartItem
     {
 
