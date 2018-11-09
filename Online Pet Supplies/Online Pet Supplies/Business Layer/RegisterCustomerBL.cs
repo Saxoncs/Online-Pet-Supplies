@@ -12,7 +12,7 @@ namespace Online_Pet_Supplies.Business_Layer
 
 
 
-
+        // Uses the registerDAL class to register a user's information as a customer in the database
         public int RegisterUser(string FirstName,string LastName,string Street,string Town,string Postcode,string Email,string Password,string UserType)
         {
 
@@ -34,7 +34,7 @@ namespace Online_Pet_Supplies.Business_Layer
 
         }
 
-
+        // Uses the registerDAL class to register a user's information as an administrator in the database
         public int RegisterAdmin(string FirstName, string LastName, string Email, string Password, string UserType)
         {
 
